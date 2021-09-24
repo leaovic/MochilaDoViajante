@@ -1,0 +1,74 @@
+E musimundos;
+-- Clientes Musimundos
+
+-- Os gerentes da Musimundos estão pensando em uma expansão nos negócios e -
+-- precisam saber quais são os clientes cadastrados na empresa. 
+
+SELECT*FROM clientes; 
+-- 59 clientes
+
+-- Where y Order By #2 - Clientes dos Estados Unidos
+-- Agora que temos os nomes dos clientes, precisamos que você obtenha 
+-- apenas os que são dos EUA.
+
+
+SELECT nome, sobrenome, pais 
+FROM clientes
+WHERE pais LIKE 'USA';
+-- Nome do terceiro cliente se chama Michelle Brooks
+
+-- Where y Order By #3 – Canções semi-largas
+-- Vamos melhorar um pouco a seleção. O departamento de música pede um relatório de músicas cuja duração seja entre 200.000 e 300.000 milissegundos. Você se anima?
+
+SELECT nome, compositor, duracao_milisegundos
+FROM cancoes
+WHERE duracao_milisegundos
+BETWEEN 200000 AND 300000
+LIMIT 5; 
+-- Musica 'Inject The Venom'
+
+-- Where y Order By #4 - Clientes que falam espanhol
+-- URGENTE! Uma banda argentina acaba de lançar um álbum e nos pediu uma lista 
+-- de clientes que falam espanhol para que pudessem divulgar seu produto. 
+-- Solicitamos que obtenha uma lista de clientes cujo país de origem é a
+-- Espanha ou a Argentina. Sorte neste desafio!
+
+SELECT nome, sobrenome, pais
+FROM clientes
+WHERE pais
+LIKE 'Spain' OR pais LIKE 'Argentina';
+-- Enrique Gutierrez
+
+-- CTD-BD-C11A-SQL - Where y Order By #5 - Todos os géneros dos álbuns.
+-- A Musimundos deseja adicionar uma lista com todos os gêneros aos quais seus 
+-- álbuns pertencem, mas classificados por nome em ordem alfabética.
+-- Informe o nome do terceiro gênero que você obteve.
+ 
+ -- Dica: Neste exercício você deve gerar o Select in Workbench, executar e 
+ -- a partir da lista de resultados, encontrar o que é solicitado no demonstrativo.
+ -- Resposta:
+
+ SELECT * FROM generos
+ ORDER BY nome ASC
+ LIMIT 3;
+ -- Blues
+
+
+ -- CTD-BD-C11A-SQL - Where y Order By #6 - Nomes de clientes ordenados
+ -- Os gerentes estão muito satisfeitos com seu trabalho! Mas as tarefas 
+ -- ainda não acabaram.
+ -- Agora precisam de uma lista apenas com os nomes dos clientes da Musimundos,
+ --  ordenados por país de origem (decrescente) e, como segundo parâmetro, por cidade. 
+ -- Está preparado?
+
+ -- Informe o nome do sexto cliente que você obteve.
+
+ -- Resposta:
+
+ SELECT * FROM clientes
+ ORDER BY pais DESC, cidade DESC
+ LIMIT 6;
+ -- Michelle Brooks
+
+
+
