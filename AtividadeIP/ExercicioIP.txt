@@ -1,0 +1,14 @@
+
+
+
+ATIVIDADE IP
+
+
+De acordo com a pesquisa feita por mim e os demais integrantes da sala 04, foram obtidos os seguintes resultados:
+
+IP Público CLASSE C
+
+IP Privado CLASSE C
+
+
+A pesquisa feita pelo endereço MAC foi Stratus Technologies
