@@ -1,4 +1,4 @@
-ELECT
+SELECT
 -- Mostre todos os registros da tabela filmes.
 
 SELECT * FROM filmes;
