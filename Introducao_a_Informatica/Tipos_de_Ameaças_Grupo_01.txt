@@ -1,0 +1,21 @@
+1. Que tipo de ameaça é relatada na notícia?
+R: Phishing
+
+2. Como essa ameaça começa e como ela se propaga?
+R: O usuário instala um dos mais de 200 apps "disfarçados"
+pensando serem legítimos, nas várias categorias disponíveis
+mas levam o usuário a clicar em banners chamativos, pensando que vão ganhar prêmios
+acabam confirmando o telefone celular e assinado um serviço SMS premium.
+
+Se propagam atravéz da própria interação dos usuários
+
+3. Existe mais de uma ameaça aplicada?
+R: Não
+
+4. Por fim, criar um texto explicando quais métodos podem ser aplicados para enfrentar esse ataque, acerca da confidencialidade, integridade 
+e disponibilidade.
+
+R: Acerca da confidencialidade: Se cadastrar em APPs e SITES de empresas confiáveis que utilizam recursos de proteção criptográfica, tokens
+etc.
+   Acerca da integridade: Questionar ou suspeitar pedidos de infomações extremamente pessoais ou excesso que informações solicitadas.
+   Acerca da Disponibilidade; Nada a se fazer pelo usuário. De acordo com a CID, isso cabe a empresa cuidar.
