@@ -19,3 +19,11 @@ R: Acerca da confidencialidade: Se cadastrar em APPs e SITES de empresas confiá
 etc.
    Acerca da integridade: Questionar ou suspeitar pedidos de infomações extremamente pessoais ou excesso que informações solicitadas.
    Acerca da Disponibilidade; Nada a se fazer pelo usuário. De acordo com a CID, isso cabe a empresa cuidar.
+
+   Grupo 1: https://thehackernews.com/2021/09/beware-this-android-trojan-stole.html
+   
+   Victor Leão
+   Daniel Fontoura
+   Issao Takeuchi
+   Giovanna Maia
+
