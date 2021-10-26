@@ -7,4 +7,4 @@ let altura = 1.62;
 let plano = true;
 let imc = peso / (altura * altura);
 
-console.log(`${nome} tem ${idade} anos e seu IMC é de ${imc}`);//Obrigado Thabata Carrion
+console.log(`${nome} tem ${idade} anos e seu IMC é de ${imc}`);
